@@ -4,7 +4,7 @@ import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import authRoutes from "./routes/authRoutes";
-// import productRoutes from "./routes/productRoutes";
+import productRoutes from "./routes/productRoutes";
 // import couponRoutes from "./routes/couponRoutes";
 // import settingsRoutes from "./routes/settingRoutes";
 // import cartRoutes from "./routes/cartRoutes";
@@ -30,7 +30,7 @@ app.use(cookieParser());
 export const prisma = new PrismaClient();
 
 app.use("/api/auth", authRoutes);
-// app.use("/api/products", productRoutes);
+app.use("/api/products", productRoutes);
 // app.use("/api/coupon", couponRoutes);
 // app.use("/api/settings", settingsRoutes);
 // app.use("/api/cart", cartRoutes);
