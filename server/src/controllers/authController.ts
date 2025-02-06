@@ -76,14 +76,13 @@ export const login = async(req: Request, res:Response): Promise<void> => {
             return;
         }
 
-        // create access and refresh token
         const { accessToken, refreshToken } = generateToken(
             extractCurrentUser.id,
             extractCurrentUser.email,
             extractCurrentUser.role
         );
 
-        //set out tokens
+        //set tokens
         await setTokens(res, accessToken, refreshToken);
         res.status(200).json({
             success: true,
