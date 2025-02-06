@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f246f998-c294-4b7e-a798-a6c66737a37b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/actions/coupon.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/store/useCouponStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/controllers/couponController.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/middleware/authMiddleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/middleware/authMiddleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/middleware/uploadMiddleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/middleware/uploadMiddleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/routes/productRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/productRoutes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/super-admin/coupons/add/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/super-admin/coupons/add/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/super-admin/coupons/list/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/super-admin/coupons/list/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/super-admin/products/add/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/super-admin/products/add/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/super-admin/products/list/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/super-admin/products/list/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/super-admin/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/super-admin/sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ui/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/couponRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/couponRoutes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

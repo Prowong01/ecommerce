@@ -64,7 +64,6 @@ function SuperAdminManageProductPage() {
     }, [isEditMode, getCurrentEditedProductId, getProductById]);
 
     useEffect(() => {
-        console.log(getCurrentEditedProductId, "getCurrentEditedProductId");
 
         if (getCurrentEditedProductId === null) {
             setFormState({

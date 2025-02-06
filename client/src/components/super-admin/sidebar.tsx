@@ -13,7 +13,7 @@ import {
     SendToBack,
     Settings,
 } from "lucide-react";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import { useAuthStore } from "@/store/useAuthStore";
 
 interface SidebarProps {
@@ -61,6 +61,7 @@ const menuItems = [
 
 const SuperAdminSidebar = ({isOpen, toggle}: SidebarProps) => {
     const router = useRouter();
+    const pathName = usePathname();
     const { logout } = useAuthStore();
 
     async function handleLogout() {
@@ -97,7 +98,8 @@ const SuperAdminSidebar = ({isOpen, toggle}: SidebarProps) => {
                         }
                         key={item.name}
                         className={cn(
-                            "flex cursor-pointer items-center px-4 py-2 text-sm hover:bg-accent hover:text-accent-foreground"
+                            "flex cursor-pointer items-center px-4 py-2 text-sm hover:bg-accent hover:text-accent-foreground",
+                            pathName === item.href && "bg-[gray]/50"
                         )}
                     >
                         <item.icon className="h-4 w-4"/>
