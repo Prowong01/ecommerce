@@ -5,27 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f246f998-c294-4b7e-a798-a6c66737a37b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/actions/product.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/super-admin/coupons/add/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/super-admin/coupons/list/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/super-admin/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/super-admin/orders/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/super-admin/products/add/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/super-admin/products/list/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/super-admin/settings/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/super-admin/sidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/store/useProductStore.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/utils/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/config/cloudinary.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/controllers/productController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/middleware/authMiddleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/middleware/uploadMiddleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ui/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/middleware/authMiddleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/middleware/authMiddleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/middleware/uploadMiddleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/middleware/uploadMiddleware.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/routes/productRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/productRoutes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,24 +53,24 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.localhost:3001.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Code/e-commerce",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Users/nm_eddie/AppData/Roaming/JetBrains/WebStorm2024.3/node/versions/22.12.0/node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "D:\\Code\\e-commerce\\server\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.localhost:3001.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Code/e-commerce&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/nm_eddie/AppData/Roaming/JetBrains/WebStorm2024.3/node/versions/22.12.0/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Code\\e-commerce\\server\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\e-commerce\client\src\app\super-admin\coupons\list" />

@@ -20,16 +20,6 @@ import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
 import { ChangeEvent, FormEvent, useEffect, useState } from "react";
 
-interface FormState {
-    name: string;
-    brand: string;
-    description: string;
-    category: string;
-    gender: string;
-    price: string;
-    stock: string;
-}
-
 function SuperAdminManageProductPage() {
     const [formState, setFormState] = useState({
         name: "",
@@ -43,14 +33,14 @@ function SuperAdminManageProductPage() {
 
     const [selectedSizes, setSelectSizes] = useState<string[]>([]);
     const [selectedColors, setSelectColors] = useState<string[]>([]);
-    const [selectedfiles, setSelectFiles] = useState<File[]>([]);
+    const [selectedFiles, setSelectFiles] = useState<File[]>([]);
     const { toast } = useToast();
     const searchParams = useSearchParams();
     const getCurrentEditedProductId = searchParams.get("id");
     const isEditMode = !!getCurrentEditedProductId;
 
     const router = useRouter();
-    const { createProduct, updateProduct, getProductById, isLoading, error } =
+    const { createProduct, updateProduct, getProductById, isLoading } =
         useProductStore();
 
     useEffect(() => {
@@ -147,7 +137,7 @@ function SuperAdminManageProductPage() {
         formData.append("colors", selectedColors.join(","));
 
         if (!isEditMode) {
-            selectedfiles.forEach((file) => {
+            selectedFiles.forEach((file) => {
                 formData.append("images", file);
             });
         }
@@ -187,9 +177,9 @@ function SuperAdminManageProductPage() {
                                     </Label>
                                 </div>
                             </div>
-                            {selectedfiles.length > 0 && (
+                            {selectedFiles.length > 0 && (
                                 <div className="mt-4 flex flex-wrap gap-2">
-                                    {selectedfiles.map((file, index) => (
+                                    {selectedFiles.map((file, index) => (
                                         <div key={index} className="relative">
                                             <Image
                                                 src={URL.createObjectURL(file)}

@@ -14,7 +14,7 @@ export const authenticateJwt = (
     res: Response,
     next: NextFunction
 ) => {
-    const accessToken = req.cookies.access_token;
+    const accessToken = req.cookies.accessToken;
     if(!accessToken) {
         res.status(401).json({
             success: false,
@@ -40,7 +40,7 @@ export const authenticateJwt = (
         console.error(e);
         res.status(401).json({
             success: false,
-            message: 'Access token is not present'
+            message: 'Access token is failed to verify'
         })
     })
 }

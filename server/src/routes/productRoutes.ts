@@ -5,7 +5,7 @@ import {createProduct, fetchAllProductsForAdmin, getProductByID, getProductsForC
 
 const router = express.Router();
 
-router.post('/create-mew-product', authenticateJwt, isSuperAdmin, upload.array("images", 5), createProduct);
+router.post('/create-new-product', authenticateJwt, isSuperAdmin, upload.array("images", 5), createProduct);
 router.get('/fetch-admin-products', authenticateJwt, isSuperAdmin, fetchAllProductsForAdmin)
 router.get("/fetch-client-products", authenticateJwt, getProductsForClient);
 router.get('/:id', authenticateJwt, getProductByID);
